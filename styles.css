@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: #F4EEFF;
+}
+
+#navbar{
+    background-color: white;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 44px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    font-weight: 310;
+    font-size: 12px;
+}
+.icons{
+    font-size: 18px;
+}
+
+.p1-img{
+    width:100%;
+}
+#p1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(245, 245, 247);
+    align-items: center;
+}
+
+button{
+    border-radius: 100px;
+    height: 50px;
+    width: 100px;
+    border-width: 1px;
+    font-size: 17px ;
+    cursor: pointer;   
+
+}
+
+.white-button{
+
+    border-color: rgb(1, 103, 204);
+    color: rgb(1, 103, 204);
+    background-color: white;
+
+}
+
+#p2{
+    background-image: url(hero__ebxx5f9ked8i_medium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+p{
+    color: white;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;    
+    text-align: center;
+    font-weight: 500;
+}
+
+.title{
+    font-size: 60px;
+    
+}
+.subtitle{
+    font-size: 25px;
+    font-weight: 350;
+}
+
+.blue-button{
+    border-color: rgb(1, 103, 204);
+    background-color: rgb(1, 103, 204);
+    color: white;
+    width: 130px;
+}
+
+#p3{
+    background-color: rgb(245, 245, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p3-img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#p3 button{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.text{
+    margin-top: 50px;
+}
